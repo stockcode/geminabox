@@ -20,10 +20,10 @@ module Geminabox
       end
 
       def rubygems_uri
-        "https://bundler.rubygems.org/api/v1/dependencies.json"
+        #"https://bundler.rubygems.org/api/v1/dependencies.json"
+        "https://ruby.taobao.org/api/v1/dependencies.json"
       end
 
     end
   end
 end
-

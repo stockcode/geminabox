@@ -63,7 +63,7 @@ module Geminabox
     def settings
       Server.settings
     end
-    
+
     def call(env)
       Server.call env
     end
@@ -85,5 +85,5 @@ module Geminabox
     allow_remote_failure: false,
     ruby_gems_url:        'https://rubygems.org/'
   )
-    
+
 end
